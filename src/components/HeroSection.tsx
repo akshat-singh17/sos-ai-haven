@@ -10,7 +10,7 @@ const HeroSection = () => {
         <AICharacter />
         
         <div className="animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-          <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent mb-6 leading-tight">
+          <h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-teal-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-6 leading-tight">
             Welcome to SOS AI
           </h1>
         </div>
@@ -22,7 +22,7 @@ const HeroSection = () => {
         </div>
         
         <div className="animate-fade-in-up" style={{animationDelay: '0.6s'}}>
-          <Button className="bg-gradient-to-r from-pink-400 to-pink-600 hover:from-pink-500 hover:to-pink-700 text-white px-12 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-pink-500/50 transition-all duration-300 hover:transform hover:-translate-y-1">
+          <Button className="bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 hover:from-teal-600 hover:via-blue-600 hover:to-purple-600 text-white px-12 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-teal-500/50 transition-all duration-300 hover:transform hover:-translate-y-1">
             Get Started
           </Button>
         </div>

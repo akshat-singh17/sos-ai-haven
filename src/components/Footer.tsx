@@ -4,17 +4,22 @@ import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-white py-16 px-6 relative z-10">
+    <footer className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-16 px-6 relative z-10">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-teal-500 to-teal-600 rounded-xl flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-xl">S</span>
+              <div className="w-12 h-12 bg-gradient-to-br from-teal-500 via-teal-600 to-blue-600 rounded-xl flex items-center justify-center mr-3 shadow-lg">
+                <div className="relative">
+                  <div className="w-7 h-7 bg-white rounded-full flex items-center justify-center">
+                    <div className="w-4 h-4 bg-gradient-to-br from-teal-500 to-blue-600 rounded-full animate-pulse"></div>
+                  </div>
+                  <div className="absolute -top-1 -right-1 w-2 h-2 bg-pink-400 rounded-full"></div>
+                </div>
               </div>
-              <h3 className="text-3xl font-bold bg-gradient-to-r from-teal-400 to-teal-600 bg-clip-text text-transparent">
+              <h3 className="text-3xl font-bold bg-gradient-to-r from-teal-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
                 SOS AI
               </h3>
             </div>
@@ -79,16 +84,16 @@ const Footer = () => {
           
           {/* Social Media Icons */}
           <div className="flex space-x-4">
-            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-teal-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
+            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
               <Facebook size={20} />
             </a>
-            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-teal-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
+            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
               <Twitter size={20} />
             </a>
-            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-teal-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
+            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
               <Linkedin size={20} />
             </a>
-            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-teal-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
+            <a href="#" className="w-10 h-10 bg-slate-800 hover:bg-gradient-to-r hover:from-teal-600 hover:to-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:transform hover:-translate-y-1">
               <Instagram size={20} />
             </a>
           </div>

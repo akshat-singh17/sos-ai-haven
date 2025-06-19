@@ -26,7 +26,7 @@ const FeaturesSection = () => {
     <section className="py-20 px-6 relative z-10">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-teal-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
             Why Choose SOS AI?
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
