@@ -95,6 +95,35 @@
   body {
     @apply bg-background text-foreground font-sans;
   }
+
+  /* Improved dark mode text contrast */
+  .dark {
+    color-scheme: dark;
+  }
+
+  .dark * {
+    color: inherit;
+  }
+
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: rgb(248 250 252);
+  }
+
+  .dark p, .dark span, .dark div {
+    color: rgb(241 245 249);
+  }
+
+  .dark .text-slate-700, .dark .text-slate-800 {
+    color: rgb(226 232 240) !important;
+  }
+
+  .dark .text-gray-600 {
+    color: rgb(203 213 225) !important;
+  }
+
+  .dark .text-gray-700 {
+    color: rgb(226 232 240) !important;
+  }
 }
 
 .pastel-gradient {
