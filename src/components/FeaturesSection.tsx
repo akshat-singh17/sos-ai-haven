@@ -29,7 +29,7 @@ const FeaturesSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-teal-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
             Why Choose SOS AI?
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
             Discover the features that make SOS AI your perfect companion for support and understanding.
           </p>
         </div>
